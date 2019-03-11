@@ -1,5 +1,5 @@
-# Computer Vision Lab
-Computer Vision examples using OpenCV and Python.  
+# Computer Vision Course
+Computer Vision Course - Examples using OpenCV and Python.  
 Author: Cristiano Fraga G. Nunes  
 E-mail: <cfgnunes@gmail.com>  
 Repository: https://github.com/cfgnunes/cv-lab

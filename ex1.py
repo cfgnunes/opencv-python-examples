@@ -1,6 +1,6 @@
 """
-Computer Vision Lab
-Example: Read and show an image.
+Computer Vision Course.
+Example 1: Read and show an image.
 
 Author: Cristiano Fraga G. Nunes
 E-mail: <cfgnunes@gmail.com>
