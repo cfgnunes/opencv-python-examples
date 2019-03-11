@@ -1,21 +1,21 @@
 # Computer Vision Lab
-Computer Vision examples using OpenCV and Python 3.  
+Computer Vision examples using OpenCV and Python.  
 Author: Cristiano Fraga G. Nunes  
 E-mail: <cfgnunes@gmail.com>  
 Repository: https://github.com/cfgnunes/cv-lab
 
-## Installing OpenCV and Python 3 (Ubuntu)
+## Installing OpenCV and Python (Ubuntu)
 
 To install the packages, use:
 
 ```
-$ sudo apt-get install opencv-python
+$ sudo apt-get install python-opencv
 ```
 
 To run a example, use:
 
 ```
-$ python3 ex1.py
+$ python ex1.py
 ```
 
 ## Examples
@@ -24,3 +24,16 @@ $ python3 ex1.py
 
 [ex2.py](https://github.com/cfgnunes/cv-lab/blob/master/ex2.py): Doing...
 
+[ex3.py](https://github.com/cfgnunes/cv-lab/blob/master/ex3.py): Doing...
+
+[ex4.py](https://github.com/cfgnunes/cv-lab/blob/master/ex4.py): Doing...
+
+[ex5.py](https://github.com/cfgnunes/cv-lab/blob/master/ex5.py): Doing...
+
+[ex6.py](https://github.com/cfgnunes/cv-lab/blob/master/ex6.py): Doing...
+
+[ex7.py](https://github.com/cfgnunes/cv-lab/blob/master/ex7.py): Doing...
+
+[ex8.py](https://github.com/cfgnunes/cv-lab/blob/master/ex8.py): Doing...
+
+[ex9.py](https://github.com/cfgnunes/cv-lab/blob/master/ex9.py): Doing...

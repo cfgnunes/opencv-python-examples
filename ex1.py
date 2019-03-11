@@ -16,3 +16,6 @@ cv2.imshow("Window title", img1)
 
 # Pause the application until any key is pressed
 cv2.waitKey(0)
+
+# Close all windows
+cv2.destroyAllWindows()
