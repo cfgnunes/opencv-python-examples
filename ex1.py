@@ -11,9 +11,6 @@ import cv2
 # Read an image
 img1 = cv2.imread("lena.jpg")
 
-# Print how many rows, columns and channels
-print(img1.shape)
-
 # Show the image in a window
 cv2.imshow("Window title", img1)
 
