@@ -8,7 +8,9 @@ if not cap.isOpened():
 
 while True:
     ret, frame = cap.read()
-    cv2.imshow('Input', frame)
+
+    if ret:
+        cv2.imshow('Input', frame)
 
     # Wait press ESC
     c = cv2.waitKey(1)
