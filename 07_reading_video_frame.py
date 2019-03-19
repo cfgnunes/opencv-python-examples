@@ -10,8 +10,10 @@ frames_to_read = 120
 frame_list = []
 
 for i in range(frames_to_read):
-    _, frame = cap.read()
-    frame_list.append(frame)
+    ret, frame = cap.read()
+
+    if ret:
+        frame_list.append(frame)
 
 cap.release()
 

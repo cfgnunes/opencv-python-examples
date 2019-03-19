@@ -5,7 +5,8 @@ gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 cv2.imshow("Input image", img)
 
-corners = cv2.goodFeaturesToTrack(gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
+corners = cv2.goodFeaturesToTrack(
+    gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
 
 red_color = (0, 0, 255)
 
