@@ -6,7 +6,7 @@ Computer Vision Lab - Examples using OpenCV and Python.
 
 ### Prerequisites
 
-This section assumes Ubuntu 14.04 (also tested on Ubuntu 16.04), but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
+This section assumes Ubuntu 14.04 (also tested on Ubuntu 16.04), but the procedure is similar for other Linux distributions. The prerequisites is to install the following packages:
 ```sh
 sudo apt-get -y install python-opencv
 ```
@@ -22,7 +22,7 @@ python2 01_reading_image.py
 ## Built With
 
 * [Python](https://www.python.org/) - Programming language used
-* [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
+* [OpenCV](https://opencv.org/) - Open source computer vision library
 
 ## Authors
 
@@ -30,4 +30,4 @@ python2 01_reading_image.py
 
 ## Acknowledgments
 
-* Flávio Luis Cardeal Pádua <cardeal@decom.cefetmg.br>
+* Flávio Luis Cardeal Pádua
