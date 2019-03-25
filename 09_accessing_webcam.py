@@ -10,7 +10,7 @@ while True:
     ret, frame = cap.read()
 
     if ret:
-        cv2.imshow('Input', frame)
+        cv2.imshow("Input", frame)
 
     # Wait press ESC
     c = cv2.waitKey(1)

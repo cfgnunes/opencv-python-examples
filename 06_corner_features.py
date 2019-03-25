@@ -1,6 +1,6 @@
 import cv2
 
-img = cv2.imread('images/blox.jpg')
+img = cv2.imread("images/blox.jpg")
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
 
 cv2.imshow("Input image", img)

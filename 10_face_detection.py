@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('videos/05-1.avi')
+cap = cv2.VideoCapture("videos/05-1.avi")
 
 # Check if the webcam is opened correctly
 if not cap.isOpened():
@@ -8,7 +8,7 @@ if not cap.isOpened():
 
 # Loads the classifier
 face_cascade = cv2.CascadeClassifier(
-    './cascade_files/haarcascade_frontalface_alt.xml')
+    "cascade_files/haarcascade_frontalface_alt.xml")
 
 while True:
     ret, frame = cap.read()
@@ -24,7 +24,7 @@ while True:
     for (x, y, w, h) in face_rects:
         cv2.rectangle(frame, (x, y), (x + w, y + h), (0, 255, 0), 3)
 
-    cv2.imshow('Face Detector', frame)
+    cv2.imshow("Face Detector", frame)
 
     c = cv2.waitKey(30)
     if c == 27:

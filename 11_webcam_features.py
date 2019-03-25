@@ -23,7 +23,7 @@ while True:
         x, y = item[0]
         cv2.circle(img, (x, y), 6, red_color, -1)
 
-    cv2.imshow('Input', img)
+    cv2.imshow("Input", img)
 
     # Wait press ESC
     c = cv2.waitKey(1)

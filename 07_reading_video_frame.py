@@ -1,6 +1,6 @@
 import cv2
 
-cap = cv2.VideoCapture('videos/chaplin.mp4')
+cap = cv2.VideoCapture("videos/chaplin.mp4")
 
 # Check if the video is opened correctly
 if not cap.isOpened():
@@ -18,6 +18,6 @@ for i in range(frames_to_read):
 cap.release()
 
 # Show the 10th frame
-cv2.imshow('Frame 10', frame_list[10])
+cv2.imshow("Frame 10", frame_list[10])
 
 cv2.waitKey()

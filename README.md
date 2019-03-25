@@ -1,19 +1,33 @@
-# Computer Vision Course
-Computer Vision Course - Examples using OpenCV and Python.  
-Author: Cristiano Fraga G. Nunes  
-E-mail: <cfgnunes@gmail.com>  
-Repository: https://github.com/cfgnunes/cv-lab
+# Computer Vision Lab
 
-## Installing OpenCV and Python (Ubuntu)
+Computer Vision Lab - Examples using OpenCV and Python.
 
-To install the packages, use:
+## Getting Started
 
+### Prerequisites
+
+This section assumes Ubuntu 14.04 (also tested on Ubuntu 16.04), but the procedure is similar for other Linux distributions. The prerequisites to build the source is to install the following packages:
+```sh
+sudo apt-get -y install python-opencv
 ```
-$ sudo apt-get install python-opencv
-```
+
+### Running the examples
 
 To run a example, use:
 
+```sh
+python2 01_reading_image.py
 ```
-$ python 01_reading_image.py
-```
+
+## Built With
+
+* [Python](https://www.python.org/) - Programming language used
+* [OpenCV](https://opencv.org/) - Open Source Computer Vision Library
+
+## Authors
+
+* Cristiano Fraga G. Nunes - *Codes*
+
+## Acknowledgments
+
+* Flávio Luis Cardeal Pádua <cardeal@decom.cefetmg.br>
