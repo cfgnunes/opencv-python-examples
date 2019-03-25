@@ -26,7 +26,7 @@ python2 01_reading_image.py
 
 ## Authors
 
-* Cristiano Fraga G. Nunes - *Codes*
+* **Cristiano Fraga G. Nunes** - *Developer - Project leader*
 
 ## Acknowledgments
 
