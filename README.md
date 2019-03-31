@@ -9,7 +9,9 @@ Computer Vision Lab - Examples using OpenCV and Python.
 This section assumes Ubuntu 14.04 (also tested on Ubuntu 16.04 and Ubuntu 18.04), but the procedure is similar for other Linux distributions. The prerequisites is to install the following packages:
 
 ```sh
-sudo apt-get -y install python-opencv
+sudo apt-get -y install python3-pip
+pip3 install --user --upgrade pip
+pip3 install --user --upgrade --requirement "requirements.txt"
 ```
 
 ### Running the examples
@@ -17,7 +19,7 @@ sudo apt-get -y install python-opencv
 To run a example, use:
 
 ```sh
-python 01_reading_image.py
+python3 01_reading_image.py
 ```
 
 ## Built With
@@ -27,7 +29,7 @@ python 01_reading_image.py
 
 ## Authors
 
-* *Cristiano Nunes* - *Developer - Project leader*
+* Cristiano Nunes - *Developer - Project leader*
 
 ## Acknowledgments
 
