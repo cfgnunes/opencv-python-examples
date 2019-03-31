@@ -17,7 +17,7 @@ sudo apt-get -y install python-opencv
 To run a example, use:
 
 ```sh
-python2 01_reading_image.py
+python 01_reading_image.py
 ```
 
 ## Built With
