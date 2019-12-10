@@ -29,7 +29,7 @@ python3 01_reading_image.py
 
 ## Authors
 
-* Cristiano Nunes - *Developer - Project leader*
+* Cristiano Nunes - *Developer*
 
 ## Acknowledgments
 
