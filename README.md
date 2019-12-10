@@ -1,6 +1,6 @@
 # Computer Vision Lab
 
-Computer Vision Lab - Examples using OpenCV and Python.
+Examples using OpenCV and Python.
 
 ## Getting Started
 
