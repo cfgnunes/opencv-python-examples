@@ -9,17 +9,15 @@ Examples using OpenCV and Python.
 This section assumes Ubuntu 16.04 (also tested on Ubuntu 18.04), but the procedure is similar for other Linux distributions. The prerequisites is to install the following packages:
 
 ```sh
-sudo apt-get -y install python3-pip
-pip3 install --user --upgrade pip
-pip3 install --user --upgrade --requirement "requirements.txt"
+sudo apt-get -y install make python3-pip
 ```
 
 ### Running the examples
 
-To run a example, use:
+To run all examples, use:
 
 ```sh
-python3 01_reading_image.py
+make run
 ```
 
 ## Built With
