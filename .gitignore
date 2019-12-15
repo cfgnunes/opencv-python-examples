@@ -133,3 +133,6 @@ dmypy.json
 # Common IDEs
 .idea/
 .vscode/
+
+# Outputfiles
+output.*
