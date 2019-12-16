@@ -25,6 +25,10 @@ make run
 * [Python](https://www.python.org/) - Programming language used
 * [OpenCV](https://opencv.org/) - Open source computer vision library
 
+Other tools:
+
+* [GNU Make](https://www.gnu.org/software/make/) - A build automation tool
+
 ## Authors
 
 * Cristiano Nunes - *Developer*
