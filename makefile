@@ -36,27 +36,27 @@ lint: venv
 run: venv
 	@echo "Running all examples..."
 	@echo "Running example 01..."
-	@$(PYTHON) 01_reading_image.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 01_reading_image.py
 	@echo "Running example 02..."
-	@$(PYTHON) 02_saving_image.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 02_saving_image.py
 	@echo "Running example 03..."
-	@$(PYTHON) 03_convert_image_format.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 03_convert_image_format.py
 	@echo "Running example 04..."
-	@$(PYTHON) 04_image_scaling.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 04_image_scaling.py
 	@echo "Running example 05..."
-	@$(PYTHON) 05_gaussian_filter.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 05_gaussian_filter.py
 	@echo "Running example 06..."
-	@$(PYTHON) 06_corner_features.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 06_corner_features.py
 	@echo "Running example 07..."
-	@$(PYTHON) 07_reading_video_frame.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 07_reading_video_frame.py
 	@echo "Running example 08..."
-	@$(PYTHON) 08_reading_video.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 08_reading_video.py
 	@echo "Running example 09..."
-	@$(PYTHON) 09_accessing_webcam.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 09_accessing_webcam.py
 	@echo "Running example 10..."
-	@$(PYTHON) 10_face_detection.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 10_face_detection.py
 	@echo "Running example 11..."
-	@$(PYTHON) 11_webcam_features.py
+	@. $(VENV_ACTIVATE); $(PYTHON) 11_webcam_features.py
 	@echo "Done!"
 	@echo
 
@@ -64,6 +64,7 @@ clean:
 	@echo "Cleaning up generated files..."
 	@rm -rf $(VENV_DIR)
 	@rm -rf "__pycache__"
-	@find . -type f \( -iname "*.py[cod]" -or -iname "output.*" \) ! -path "./.git/*" -delete
+	@find . -type f \( -iname "*.py[cod]" -or -iname "output.*" \) \
+		! -path "./.git/*" -delete
 	@echo "Done!"
 	@echo
