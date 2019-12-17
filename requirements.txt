@@ -1,6 +1,6 @@
 # Main packages
 numpy
-opencv-python==3.4.2.17
+opencv-python
 
 # Linters
 flake8
