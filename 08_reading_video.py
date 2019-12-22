@@ -1,3 +1,8 @@
+"""
+Example:
+Play a video.
+"""
+
 import cv2
 
 cap = cv2.VideoCapture("videos/chaplin.mp4")

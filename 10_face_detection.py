@@ -1,3 +1,8 @@
+"""
+Example:
+Detect human faces from a webcam.
+"""
+
 import cv2
 
 cap = cv2.VideoCapture("videos/05-1.avi")

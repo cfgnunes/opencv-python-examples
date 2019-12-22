@@ -1,3 +1,8 @@
+"""
+Example:
+Read an image and display it.
+"""
+
 import cv2
 
 img = cv2.imread("images/input.jpg")

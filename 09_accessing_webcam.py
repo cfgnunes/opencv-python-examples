@@ -1,3 +1,8 @@
+"""
+Example:
+Show the video stream from a webcam.
+"""
+
 import cv2
 
 cap = cv2.VideoCapture(0)

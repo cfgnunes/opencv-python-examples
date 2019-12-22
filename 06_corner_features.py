@@ -1,3 +1,8 @@
+"""
+Example:
+Detect corners in an image.
+"""
+
 import cv2
 
 img = cv2.imread("images/blox.jpg")

@@ -1,3 +1,8 @@
+"""
+Example:
+Apply a Gaussian filter in an image.
+"""
+
 import cv2
 
 img = cv2.imread("images/input.jpg")

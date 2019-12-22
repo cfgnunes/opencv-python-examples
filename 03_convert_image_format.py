@@ -1,3 +1,8 @@
+"""
+Example:
+Convert an image to another format and save it.
+"""
+
 import cv2
 
 img = cv2.imread("images/input.jpg")
