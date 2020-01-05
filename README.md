@@ -24,17 +24,17 @@ make run
 
 ## Built With
 
-* [Python](https://www.python.org/) - Programming language used
-* [OpenCV](https://opencv.org/) - Open source computer vision library
+- [Python](https://www.python.org/) - Programming language used
+- [OpenCV](https://opencv.org/) - Open source computer vision library
 
 Other tools:
 
-* [GNU Make](https://www.gnu.org/software/make/) - A build automation tool
+- [GNU Make](https://www.gnu.org/software/make/) - A build automation tool
 
 ## Authors
 
-* Cristiano Nunes - *Developer*
+- Cristiano Nunes - _Developer_
 
 ## Acknowledgments
 
-* Flávio Luis Cardeal Pádua
+- Flávio Luis Cardeal Pádua
