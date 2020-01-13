@@ -1,7 +1,3 @@
 # Main packages
 numpy==1.18.0
 opencv-python==3.4.2.17
-
-# Linters
-flake8==3.7.9
-pylint==2.4.4
