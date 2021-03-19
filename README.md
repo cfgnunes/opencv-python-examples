@@ -6,7 +6,22 @@ Examples using OpenCV and Python.
 
 ### Prerequisites
 
-This section assumes Ubuntu 16.04 (also tested on Ubuntu 20.04), but the procedure is similar for other Linux distributions. The prerequisites is to install the following packages:
+#### Using Conda (Recommended)
+
+```sh
+conda env create
+conda activate opencv-env
+```
+
+#### Using Pip
+
+```sh
+pip install -r requirements.txt
+```
+
+#### Using Ubuntu
+
+This section assumes Ubuntu 16.04 (also tested on Ubuntu 20.04), but the procedure is similar for other Linux distributions.
 
 ```sh
 sudo apt -y install python3-opencv
@@ -27,8 +42,4 @@ python3 01_reading_image.py
 
 ## Authors
 
-- Cristiano Nunes - _Developer_
-
-## Acknowledgments
-
-- Flávio Luis Cardeal Pádua
+- Cristiano Nunes

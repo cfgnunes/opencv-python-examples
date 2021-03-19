@@ -1,0 +1,12 @@
+# File used by Conda (if you use it)
+# to install the necessary dependencies for the project.
+
+name: opencv-env
+
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python==3.8.5
+  - opencv
