@@ -5,10 +5,10 @@ Apply a Gaussian filter in an image.
 
 import cv2
 
-img = cv2.imread("images/input.jpg")
-cv2.imshow("Input", img)
+image = cv2.imread("images/input.jpg")
+cv2.imshow("Input", image)
 
-img_gaussian = cv2.GaussianBlur(img, (17, 17), 0)
-cv2.imshow("Gaussian filter", img_gaussian)
+image_gaussian = cv2.GaussianBlur(image, (17, 17), 0)
+cv2.imshow("Gaussian filter", image_gaussian)
 
 cv2.waitKey()

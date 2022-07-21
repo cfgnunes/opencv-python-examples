@@ -12,27 +12,27 @@ if not cap.isOpened():
     raise IOError("Cannot open webcam")
 
 while True:
-    ret, img = cap.read()
+    ret, frame = cap.read()
 
     if not ret:
         break
 
-    gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+    frame_gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
 
     corners = cv2.goodFeaturesToTrack(
-        gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
+        frame_gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
 
     red_color = (0, 0, 255)
 
-    for item in corners:
-        x, y = item[0]
-        cv2.circle(img, (x, y), 6, red_color, -1)
+    for corner in corners:
+        x, y = corner[0]
+        cv2.circle(frame, (x, y), 6, red_color, -1)
 
-    cv2.imshow("Input", img)
+    cv2.imshow("Input", frame)
 
     # Wait press ESC
-    c = cv2.waitKey(1)
-    if c == 27:
+    key = cv2.waitKey(1)
+    if key == 27:
         break
 
 cap.release()

@@ -5,20 +5,20 @@ Detect corners in an image.
 
 import cv2
 
-img = cv2.imread("images/blox.jpg")
-gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
+image = cv2.imread("images/blox.jpg")
+image_gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 
-cv2.imshow("Input image", img)
+cv2.imshow("Input image", image)
 
 corners = cv2.goodFeaturesToTrack(
-    gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
+    image_gray, maxCorners=30, qualityLevel=0.05, minDistance=25)
 
 red_color = (0, 0, 255)
 
-for item in corners:
-    x, y = item[0]
-    cv2.circle(img, (x, y), 3, red_color, -1)
+for corner in corners:
+    x, y = corner[0]
+    cv2.circle(image, (x, y), 3, red_color, -1)
 
-cv2.imshow("Top 'k' features", img)
+cv2.imshow("Top 'k' features", image)
 
 cv2.waitKey()

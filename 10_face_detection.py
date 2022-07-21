@@ -31,8 +31,8 @@ while True:
 
     cv2.imshow("Face Detector", frame)
 
-    c = cv2.waitKey(30)
-    if c == 27:
+    key = cv2.waitKey(30)
+    if key == 27:
         break
 
 cap.release()
