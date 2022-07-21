@@ -25,7 +25,7 @@ while True:
     red_color = (0, 0, 255)
 
     for corner in corners:
-        x, y = corner[0]
+        x, y = int(corner[0][0]), int(corner[0][1])
         cv2.circle(frame, (x, y), 6, red_color, -1)
 
     cv2.imshow("Input", frame)
