@@ -39,7 +39,3 @@ python3 01_reading_image.py
 
 - [Python](https://www.python.org/) - Programming language used
 - [OpenCV](https://opencv.org/) - Open source computer vision library
-
-## Authors
-
-- Cristiano Fraga G. Nunes
