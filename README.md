@@ -10,7 +10,7 @@ Examples using OpenCV and Python.
 
 ```sh
 conda env create
-conda activate opencv-env
+conda activate opencv-examples
 ```
 
 #### Using Pip
