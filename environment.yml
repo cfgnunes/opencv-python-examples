@@ -10,4 +10,4 @@ dependencies:
   - python=>3.0
   - pip
   - pip:
-    - opencv-python
+    - -r requirements.txt
